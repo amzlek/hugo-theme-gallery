@@ -1,1 +1,18 @@
 /* custom.css */
+/* Import fonts if using Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+
+
+/* Apply Lexend as the main font */
+html {
+    font-family: 'Lexend';
+}
+
+/* Hide the download and zoom buttons */
+.pswp__button--download-button {
+    display: none !important;
+}
+.pswp__button--zoom {
+    display: none !important;
+}
