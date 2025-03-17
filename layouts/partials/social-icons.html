@@ -39,6 +39,15 @@
         </svg>
       </a>
     {{ end }}
+    {{ with .flickr }}
+      <a target="_blank" rel="noopener" title="Flickr" href="{{ . }}">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-width="2" d="M2 5c0-2 2-3 4-3H18c2 0 4 2 4 4V18c0 2-2 4-4 4H6c-2 0-4-2-4-4z"/>
+          <circle cx="8" cy="12" r="3" />
+          <circle cx="16" cy="12" r="3" fill="currentColor"/>
+        </svg>
+      </a>
+    {{ end }}
     {{ with .github }}
       <a target="_blank" rel="noopener" title="GitHub" href="{{ . }}">
         <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
